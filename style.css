@@ -1,0 +1,241 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+/* navbar */
+nav {
+  margin-left: 3%;
+  padding-top: 3%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav a {
+  padding: 0.3rem 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+.active {
+  background-color: #fff;
+  color: blueviolet;
+  border-radius: 0.3rem;
+}
+.logo-img {
+  margin-left: 3%;
+}
+.nav-item-img {
+  width: 20px;
+  margin: 0px 1rem;
+  height: 18px;
+}
+header {
+  background-color: blue;
+}
+.header-content {
+  margin: 3%;
+  display: flex;
+}
+.header-img-container {
+  position: absolute;
+  right: 0px;
+  top: 150px;
+}
+.header-text {
+  position: relative;
+  top: 60px;
+}
+
+.header-text p {
+  margin-bottom: 200px;
+  color: #fff;
+}
+.header-text h2 {
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+/* companies */
+.companies {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+}
+.companies a {
+  color: black;
+  font-weight: bold;
+}
+/* api section */
+.api {
+  margin: 3%;
+}
+.api > h1 {
+  font-weight: bold;
+  size: 1.5rem;
+  letter-spacing: 2px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.card {
+  padding: 20px;
+}
+.card-active {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 6px 6px rgb(231, 231, 231);
+}
+.card-active h3 {
+  color: blueviolet;
+}
+/* blog section */
+.blog-heading {
+  display: flex;
+  margin: 1rem 3%;
+  justify-content: space-between;
+}
+.blog-heading h1 {
+  font-size: 2rem;
+}
+.blog-heading h4 {
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+}
+.blog-cards {
+  display: flex;
+  margin: 0px 3%;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+}
+.blog-card {
+  height: 290px;
+  display: flex;
+}
+.card-content {
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px #818181;
+  width: 250px;
+  border-radius: 10px;
+}
+.blog-content h6 {
+  color: blueviolet;
+  margin: 0.5rem 0px;
+}
+.bottom-container {
+  display: flex;
+  margin-top: 50px;
+}
+.blog-author {
+  font-weight: bold;
+  margin-left: 8px;
+  font-size: 12px;
+  margin-top: 6px;
+}
+/* FAQ SECTION */
+.faq-section {
+  display: flex;
+  margin: 3%;
+  justify-content: space-between;
+  background-color: rgb(221, 220, 241);
+}
+.faq-content {
+  padding: 2%;
+}
+.faq-section h2 {
+  font-size: 2.5rem;
+}
+.description {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  margin-bottom: 1.5rem;
+}
+.faq-section button {
+  color: #fff;
+  border-radius: 4px;
+  border: 0px;
+  background-color: blue;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+/* download-section */
+.download-section {
+  margin: 3%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+.download-content span {
+  font-weight: lighter;
+}
+.download-content h1 {
+  font-size: 3rem;
+}
+.download-email form {
+  margin-top: 20px;
+}
+.download-email form input {
+  height: 2.5rem;
+  border-radius: 2rem;
+  border: 0px;
+  background-color: rgb(219, 219, 232);
+  padding-left: 1rem;
+  font-weight: bold;
+}
+.download-email form button {
+  color: #fff;
+  border: 0px;
+  background-color: blue;
+  border-radius: 25px;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+}
+/* footer */
+.footer-section {
+  background-color: blue;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left {
+  margin: 2%;
+}
+.footer-left ul {
+  display: flex;
+}
+.footer-left ul li {
+  padding: 0px 1.2rem;
+  margin-top: 1rem;
+  color: #fff;
+  border-left: 1px solid #fff;
+}
+.footer-logos {
+  padding: 0px 1rem;
+}
+.logos-list {
+  display: flex;
+  color: #fff;
+}
+.logos-list li {
+  margin-top: 1rem;
+  padding: 0px 1.2rem;
+  border-right: 1px solid #fff;
+  font-size: 0.8rem;
+}
