@@ -239,3 +239,69 @@ header {
   border-right: 1px solid #fff;
   font-size: 0.8rem;
 }
+.fa-bars {
+  display: none;
+}
+
+/* media queries */
+@media only screen and (max-width: 720px) {
+  .nav-item,
+  .nav-item-img {
+    display: none;
+  }
+  nav .fa-bars {
+    display: block;
+    float: right;
+    color: #fff;
+  }
+  .header-content {
+    flex-direction: column;
+  }
+  .header-text {
+    position: static;
+  }
+  .header-img-container {
+    position: static;
+  }
+  .header-image {
+    width: 410px;
+  }
+  .header-text p {
+    margin-bottom: 25px;
+  }
+  .companies {
+    width: 100%;
+  }
+  .cards {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .card {
+    text-align: center;
+  }
+  .blog-cards {
+    flex-direction: column;
+  }
+  .blog-card {
+    margin-top: 25px;
+    padding-bottom: 20px;
+    height: 310px;
+  }
+  .card-content .bottom-container {
+    display: none;
+  }
+  .faq-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .faq-section .faq-image .rect-image {
+    width: 400px;
+  }
+  .download-section {
+    flex-direction: column;
+  }
+  .footer-section {
+    flex-direction: column;
+    padding: 5px;
+  }
+}
