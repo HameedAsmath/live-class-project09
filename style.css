@@ -239,8 +239,9 @@ header {
   border-right: 1px solid #fff;
   font-size: 0.8rem;
 }
-.fa-bars {
+nav i {
   display: none;
+  color: blue;
 }
 
 /* media queries */
